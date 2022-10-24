@@ -80,7 +80,7 @@
 }
 
 .wish:focus{
-    color: red !important;
+    color: red;
 }
 
 .waitingList{
