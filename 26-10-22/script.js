@@ -17,7 +17,7 @@ console.log(arrayIdentity);
 
 let str = "########";
 
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 7; i++){
   str = str.slice(1);
   console.log(str);
 }
