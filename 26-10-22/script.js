@@ -15,17 +15,6 @@ console.log(arrayIdentity);
 
 /* -------- AVANZATO -------- */
 
-/* 
-
-let str = "";
-
-for (let i = 0; i <= 6; i++) {
-  str += "#";
-  console.log(str);
-}
-
-*/
-
 let str = "########";
 
 for (let i = 0; i < 7; i++) {
