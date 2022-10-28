@@ -26,7 +26,7 @@ alert("Il risultato è: " + risultato);*/
 
 //Esercizio 2
 
-const character = {
+ const character = {
     Nome: "Lucario",
     Razza: "Pokemon",
     Tipo: "Lotta / Acciaio",
@@ -85,7 +85,16 @@ console.log(Object.values(character));
     console.log(Object.keys(character));
     console.log(Object.values(character));
 
-    alert("Nome: Lucario + \nRazza: Pokemon \nTipo: Lotta / Acciaio \nGenerazione: Quarta \nPokedex: 448 \nAltezza: 1.2m \nPeso: 54kg \nPre evoluzione: Riolu \nMega evoluzione: MegaLucario");
+    
+    alert(
+        character.Nome + "\n" 
+        + "\n" + character.Razza
+        + "\n" + character.Tipo
+        + "\n" + character.Generazione
+        + "\n" + character.Pokedex
+        + "\n" + character.Altezza
+        + "\n" + character.Peso
+        + "\n");
 }*/
 
 // ---------------------------------------------------------- //
