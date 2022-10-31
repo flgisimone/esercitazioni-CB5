@@ -99,7 +99,60 @@ console.log(Object.values(character));
 
 // ---------------------------------------------------------- //
 
-   
+//Esercizio 3
+
+/*let nCount = prompt("Inserisci il numero di valori da calcolare: ");
+nCount = parseFloat(nCount);
+let sum = 0;
+
+for(let i=1; i<=nCount; i++){
+    let n = prompt("Inserisci il numero");
+    n = parseFloat(n);
+    sum =+ n;
+}*/
+
+function calculator(){
+    let nCount = prompt("Inserisci il numero di valori da calcolare: ");
+    nCount = parseFloat(nCount);
+
+    for(let i=1; i<=nCount; i++){
+        let n = prompt("Inserisci il numero");
+        console.log(n);
+        n = parseFloat(n);
+    }
+
+    let operator = prompt("Inserisci l'operatore di calcolo tra: \n+ \n-\n* \n/");
+    switch (x){
+        case "+":
+            sum =+ n;
+            console.log(sum);
+            break;
+        case "-":
+            sub =- n;
+            console.log(sub);
+            break;
+        case "*":
+            mult = mult * n;
+            console.log(mult);
+            break;    
+        case "+":
+            div = div / n;
+            console.log(div);
+            break;
+            default:
+                console.log ("Inserito operatore o numero non valido");
+        }
+
+}
+
+calculator();
+
+
+
+
+
+
+
 
 
 
