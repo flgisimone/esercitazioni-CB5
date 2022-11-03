@@ -1,0 +1,112 @@
+body{
+  background: rgb(255,72,0);
+  background: radial-gradient(circle, rgba(255,72,0,1) 0%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;
+  font-family: 'Roboto', serif;
+}
+
+.hero{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .infoHero h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero .infoHero img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hero .imgHero img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.fighterSection,
+.assassinSection{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fighterSection h1{
+  color: white;
+  font-size: 35px;
+}
+
+.assassinSection h1{
+  color: white;
+  font-size: 35px;
+}
+
+.divFighter,
+.divAssassin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card h1{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero{
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero .infoHero h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .hero .infoHero{
+    width: 600px;
+    border-radius: 5px;
+  }
+  
+  .hero .imgHero{
+    width: 600px;
+    border-radius: 5px;
+  }
+  
+  .fighterSection,
+  .assassinSection{
+  width: 1350px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+  .divFighter,
+  .divAssassin{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+  
+}
