@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.hero{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.info__Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.info__Hero img{
+    width: 200px;
+}
+
+.info__Hero p{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.videoHero{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.buttonPlay{
+    background-color: #00B2CF;
+    border: 0px;
+    font-size: 15px;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.mapSection{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    background: rgb(58,78,89);
+    background: radial-gradient(circle, rgba(58,78,89,1) 0%, rgba(0,0,0,1) 100%);
+    box-shadow: 0px 0px 1px 1px #DFCA81;
+}
+
+.mapSection .span1{
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+}
+
+.mapSection .span2{
+    font-size: 50px;
+    color: #DFCA81;
+    text-align: center;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.map{
+    margin: 20px;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 1px 1px #DFCA81;
+    border-radius: 5px;
+}
+
+.map h2{
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.map img{
+    width: 250px;
+    margin: 10px;
+}
+
+.map p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-bottom:20px;
+}
+
+.choose__Champion{
+    width: 100%;
+    margin: auto;
+    font-weight: 800;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 80%, rgba(223,202,129,1) 100%);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose__Champion .span1{
+    font-size: 30px;
+    color: grey;
+}
+
+.choose__Champion .span2{
+    font-size: 50px;
+    color: #DFCA81;
+}
+
+.choose__Champion .span3{
+    width: 80%;
+    font-size: 18px;
+    padding: 20px 0;
+    color: grey;
+}
+
+.nav__Champion{
+    width: 100%;
+    border-top: 1px solid #DFCA81;
+    border-bottom: 1px solid #DFCA81;
+    padding: 10px 0;
+    margin: 10px 0;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.nav__Champion::-webkit-scrollbar {
+    display: none; 
+}
+
+.nav__Champion ul{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 0 20px;
+    font-weight: 600;
+}
+
+.nav__Champion ul li{
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.fighterSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.fighterSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divFighter{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.assassinSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.assassinSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divAssassin{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.mageSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mageSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divMage{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.marksmanSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.marksmanSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divMarksman{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.supportSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.supportSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divSupport{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.tankSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tankSection span{
+    font-size: 30px;
+    color: #DFCA81;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.divTank{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card span{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+}
+
+.card img{
+    width: 120px;
+}
+
+.legend{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(58,78,89);
+    background: radial-gradient(circle, rgba(58,78,89,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.legend__Image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend__Image .span1{
+    width: 300px;
+    text-align: center;
+    font-size: 35px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.imgLegend{
+    width: 390px;
+    margin-bottom: 20px;
+}
+
+.legend__Info{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.legend__Info .span1{
+    font-size: 40px;
+    color: #DFCA81;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.legend__Info p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Asap", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        width: 1350px;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    
+    .info__Hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        margin: auto;
+        color: white;
+    }
+
+    .info__Hero{
+        width: 650px;
+    }
+    
+    .info__Hero img{
+        width: 400px;
+    }
+    
+    .info__Hero p{
+        text-align: left;
+        margin: 20px 0;
+        font-size: 18px;
+    }
+    
+    .video__Hero{
+        width: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videoHero{
+        width: 600px;
+        margin-top: 0px;
+        box-shadow: 0px 0px 2px 2px #DFCA81;
+    }
+
+    .choose__Champion .span1{
+        font-size: 40px;
+    }
+    
+    .choose__Champion .span2{
+        font-size: 70px;
+        color: #DFCA81;
+    }
+    
+    .choose__Champion .span3{
+        width: 80%;
+        font-size: 25px;
+        padding: 20px 0;
+        font-size: "Spiegel", "Arial Narrow", Arial, sans-serif;;
+    }
+
+    .nav__Champion ul{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        gap: 0 20px;
+        font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+        font-weight: 600;
+    }
+
+    .divFighter{
+        overflow-x: scroll;
+    }
+
+    .mapSection{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        background: rgb(58,78,89);
+        background: radial-gradient(circle, rgba(58,78,89,1) 0%, rgba(0,0,0,1) 100%);
+        box-shadow: 0px 0px 2px 2px #DFCA81;
+    }
+
+    .mapSection .maps{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .mapSection .maps .map{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .legend{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: rgb(58,78,89);
+        background: radial-gradient(circle, rgba(58,78,89,1) 0%, rgba(0,0,0,1) 100%);
+    }
+    
+    .legend__Image{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .legend__Image .span1{
+        display: none;
+    }
+    
+    .imgLegend{
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    
+    .legend__Info{
+        width: 650px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .legend__Info .span1{
+        font-size: 40px;
+        color: #DFCA81;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .legend__Info p{
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+    }
+}
