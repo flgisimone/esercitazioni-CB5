@@ -3,8 +3,6 @@ const pokemonArray = []; //creazione array vuoto che funge da contenitore per og
 for (let i = 1; i <= 150; i++) { //inizializzazione di un ciclo che ha come scopo includere nell'array fino a 150 url
     pokemonArray.push(`https://pokeapi.co/api/v2/pokemon/${i}/`); //push degli url nell'array
   }
-  
-  const loadingEl = document.querySelector(".loading");
 
   let request = pokemonArray.map((url) => {//assegnazione di un valore "request" all'array (pokemonArray) per mappare gli url
     return fetch(url).then((res) => res.json()); //ritorno dell'array mappato con gli url
