@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: "Asap", sans-serif;
+}
+
+body {
+    background: rgb(253,29,29);
+    position: relative;
+  }
+
+.loading {
+    display: none;
+}
+
+.active{
+    position: relative;
+    display: block;
+}
+
+.imgPoke{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imgPoke img{
+    width: 300px;
+}
+  
+.sectionPokemon{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.cardPokemonDiv {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(65, 65, 65, 0.705);
+    padding: 10px 0;
+  }
+  
+.cardPokemonDiv img {
+    width: 130px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 10px 0;
+  }
+  
+.cardPokemonDiv h1 {
+    font-size: 25px;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+  
+.idPokemon {
+    background-color: rgba(185, 185, 185, 0.37);
+    border-radius: 16px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    font-weight: 700;
+    z-index: 1;
+  }
+  
+.cardPokemonDiv h2 {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  /*UTILITIES*/
+  .bg-grass {
+      background-color: #DEFDE0;
+  }
+  
+  .bg-electric {
+      background-color: #FCF7DE;
+  }
+  
+  .bg-water {
+      background-color: #DEF3FD;
+  }
+  
+  .bg-ground {
+      background-color: #f4e7da;
+  }
+  
+  .bg-rock {
+      background-color: #d5d5d4;
+  }
+  
+  .bg-fairy {
+      background-color: #fceaff;
+  }
+  
+  .bg-poison {
+      background-color: #98d7a5;
+  }
+  
+  .bg-bug {
+      background-color: #f8d5a3;
+  }
+  
+  .bg-dragon {
+      background-color: #97b3e6;
+  }
+  
+  .bg-psychic {
+      background-color: #eaeda1;
+  }
+  
+  .bg-flying {
+      background-color: #F5F5F5;
+  }
+  
+  .bg-fighting {
+      background-color: #E6E0D4;
+  }
+  
+  .bg-normal {
+      background-color: #F5F5F5;
+  }
+  
+  .bg-fire {
+      background-color: #FDDFDF;
+  }
+  
+  .bg-ghost {
+      background-color: #705898;
+  }
+  
+  .bg-ice {
+      background-color: #98d8d8;
+  }
