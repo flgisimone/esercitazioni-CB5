@@ -1,0 +1,93 @@
+*{
+    font-family: "Asap", sans-serif;
+    margin: 0;
+}
+
+:root{
+    --lightgreen: #53ffab;
+    --lightgrey: #d0e4eb;
+    --darkwhite: #313a49;
+    --darkblue: #202632;
+}
+
+body {
+ background-color: var(--darkblue);
+ position: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    background-color: var(--darkwhite);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.idAdvice{
+    color: var(--lightgreen);
+    font-size: 15px;
+}
+
+.advice{
+    color: var(--lightgrey);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card .imgPattern{
+    margin: 30px 0;
+}
+
+.btn-generator{
+    position: absolute;
+    bottom: -10%;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #53ffab;
+    cursor: pointer;
+}
+
+.btn-generator:hover{
+    box-shadow: 1px 1px 25px #53ffab;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card{
+        width: 500px;
+        margin: auto;
+        background-color: var(--darkwhite);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+}
