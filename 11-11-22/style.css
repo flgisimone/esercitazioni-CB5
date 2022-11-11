@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.cardPokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPokemon img{
+    width: 150px;
+}
+
+.cardPokemon h1{
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.cardPokemon h2{
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.cardPokemon h3{
+    font-size: 21px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+.btnPrev,
+.btnNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: transparent;
+    font-weight: bold;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.pkmImgPrev{
+    transition: transform .7s ease-in-out;
+}
+
+.pkmImgPrev:hover{
+    transform: rotate(-180deg);
+  }
+
+.pkmImgNext{
+    transition: transform .7s ease-in-out;
+}
+
+.pkmImgNext:hover{
+    transform: rotate(180deg);
+  }
+
+.pkmImgPrev,
+.pkmImgNext{
+    width: 50px;
+}
