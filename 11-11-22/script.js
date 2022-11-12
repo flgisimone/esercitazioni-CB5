@@ -16,6 +16,7 @@ const container = document.querySelector(".container")
 const createCardPokemon = (res) =>{
 
   cardPokemon.className = "cardPokemon"
+  cardPokemon.classList.add(`bg-${res.types[0].type.name}`) 
   imgPokemon.setAttribute("src", res.sprites.other.dream_world.front_default)
   imgPokemon.setAttribute("alt", res.name)
   namePokemon.textContent = res.name
