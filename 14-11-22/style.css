@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    display: none;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.cardPost{
+    border-radius: 10px;;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgb(58,78,89);
+    background: linear-gradient(211deg, rgba(58,78,89,1) 0%, rgba(224,121,121,1) 100%);
+}
+
+.card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_id{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.title_id h1{
+    width: 70%;
+    font-size: 20px;
+    color: white;
+}
+
+.title_id h1::first-letter{
+    text-transform: capitalize;
+}
+
+.title_id span{
+    text-align: center;
+    width: 50px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+p{
+    width: 90%;
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.button{
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader .loading {
+    display: block;
+    transition: all 1s ease-in-out;
+  }
+
+.load {
+    width: 200px;
+    animation: 2s rotate infinite ease-in-out;
+  }
+
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .active {
+    display: block;
+  }
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        width: 30%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .cardPost{
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background: rgb(58,78,89);
+        background: linear-gradient(211deg, rgba(58,78,89,1) 0%, rgba(224,121,121,1) 100%);
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title_id h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .button{
+        margin: 20px 0;
+        display: flex;
+    }
+
+    .button button{
+        cursor: pointer;
+    }
+        
+}
+
