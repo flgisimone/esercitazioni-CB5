@@ -1,0 +1,40 @@
+{
+  "pokemon": [
+    {
+      "img": "C:\\fakepath\\charizard.png",
+      "name": "Charizard",
+      "type": "fire",
+      "id": 1
+    },
+    {
+      "img": "",
+      "name": "Squirtle",
+      "type": "water",
+      "id": 2
+    },
+    {
+      "img": "",
+      "name": "Lucario",
+      "type": "fighting",
+      "id": 3
+    },
+    {
+      "img": "",
+      "name": "Pikachu",
+      "type": "electric",
+      "id": 4
+    },
+    {
+      "img": "",
+      "name": "Psyduck",
+      "type": "psychic",
+      "id": 5
+    },
+    {
+      "img": "",
+      "name": "Magikarp",
+      "type": "water",
+      "id": 6
+    }
+  ]
+}
