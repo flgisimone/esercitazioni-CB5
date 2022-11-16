@@ -1,0 +1,9 @@
+{
+  "pokemon": [
+    {
+      "name": "Lucario",
+      "type": "fighting",
+      "id": 2
+    }
+  ]
+}
