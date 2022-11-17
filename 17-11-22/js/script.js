@@ -31,7 +31,7 @@ GET(BASE_URL).then((data) => {
   productsList.map((product) => createCardEl(product, cardList));
 });
 
-inputEl.addEventListener("keyup", (e) => {
+inputEl.addEventListener("input", (e) => {
   const searchString = e.target.value;
   const filteredProd = productsList.filter((prod) => {
     return prod.title.includes(searchString);
