@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+
+body{
+    height: 100%;
+    padding: 30px 0;
+    background-image: url(https://wallpaperaccess.com/full/3952024.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin: 20px 0;
+    color: white;
+}
+
+.containerPokemon{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemonAdd,
+.pokemonEdit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pokemonEdit{
+    width: 95%;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.pokemonEdit input[type=text]{
+    border: 2px solid #79C9F9;
+}
+
+.pokemonEdit input[type=text]::placeholder{
+    color: red;
+    font-weight: bold;
+}
+
+img{
+    width: 350px;
+}
+
+input[type=text]{
+    margin: 10px 0;
+    width: 300px;
+    height: 35px;
+    border-color: red;
+    border-radius: 5px;
+    padding: 20px 10px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+input[type=submit]{
+    width: 100px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+.containerCard{
+    width: 350px;
+    padding: 20px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid green;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 30px;
+    align-self: center;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.imgDiv{
+    width: 190px;
+    height: 190px; 
+    background-color: grey;
+}
+
+.btnCard{
+    display: flex;
+    gap: 30px;
+}
+
+.btnDelete,
+.btnEdit{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btnDelete img{
+    width: inherit;
+}
+
+.btnEdit img{
+    width: inherit;
+}
+
+@media screen and (min-width: 768px) {
+
+    .containerPokemon{
+        width: 1350px;
+        margin: auto;
+        display: flex;
+    }
+
+    img{
+        width: 300px;
+    }
+
+    input[type=text]{
+        margin: 10px 0;
+        width: 200px;
+        height: 20px;
+        border-color: red;
+        border-radius: 5px;
+        padding: 15px 10px;
+        outline: none;
+    }
+
+    input[type=submit]{
+        width: 80px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 10px 0;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    .containerCard{
+        width: 1350px;
+        padding: 20px 0;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .containerCard::-webkit-scrollbar{
+        display: none;
+    }
+
+    .card{
+        width: 250px;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .imgDiv{
+        width: 150px;
+        height: 150px; 
+        background-color: grey;
+    }
+
+    .btnDelete,
+    .btnEdit{
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    }
+
+    .pokemonEdit{
+        width: 220px;
+    }
+    
+}
+
+.bg-grass {
+    background-color: #DEFDE0;
+}
+
+.bg-electric {
+    background-color: #FCF7DE;
+}
+
+.bg-water {
+    background-color: #DEF3FD;
+}
+
+.bg-ground {
+    background-color: #f4e7da;
+}
+
+.bg-rock {
+    background-color: #d5d5d4;
+}
+
+.bg-fairy {
+    background-color: #fceaff;
+}
+
+.bg-poison {
+    background-color: #98d7a5;
+}
+
+.bg-bug {
+    background-color: #f8d5a3;
+}
+
+.bg-dragon {
+    background-color: #97b3e6;
+}
+
+.bg-psychic {
+    background-color: #eaeda1;
+}
+
+.bg-flying {
+    background-color: #F5F5F5;
+}
+
+.bg-fighting {
+    background-color: #E6E0D4;
+}
+
+.bg-normal {
+    background-color: #F5F5F5;
+}
+
+.bg-fire {
+    background-color: #FDDFDF;
+}
+
+.bg-ghost {
+    background-color: #705898;
+}
+
+.bg-ice {
+    background-color: #98d8d8;
+}

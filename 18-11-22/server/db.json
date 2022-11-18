@@ -1,0 +1,24 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "type": "electric"
+    },
+    {
+      "id": 2,
+      "name": "Squirtle",
+      "type": "water"
+    },
+    {
+      "id": 3,
+      "name": "Zigzagoon",
+      "type": "normal"
+    },
+    {
+      "id": 4,
+      "name": "Raichu",
+      "type": "electric"
+    }
+  ]
+}
