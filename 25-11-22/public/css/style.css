@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+body{
+  position: relative;
+  height: 100vh;
+}
+
+h2,
+h3{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h6{
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrapper-oper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form{
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+input{
+  border: 1px solid orange;
+  padding: 15px;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus{
+  border: 1px solid aquamarine;
+}
+
+input[type=submit]{
+  border:none;
+  cursor: pointer;
+  background-color: aquamarine;
+  font-weight: 600;
+}
+
+input[type=submit]:focus{
+  border:none;
+  cursor: pointer;
+  background-color: orange;
+  font-weight: 600;
+}
