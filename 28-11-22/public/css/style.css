@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(224,121,121);
+    background: radial-gradient(circle, rgba(224,121,121,1) 0%, rgba(58,78,89,1) 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1,
+h2{
+    margin: 30px 0;
+    color: white;
+}
+
+.input{
+    display: flex;
+    gap: 20px;
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+input{
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid aquamarine;
+    outline: none;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: salmon;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ugualeBtn{
+    width: 100px;
+    align-self: center;
+    background-color: bisque;
+}
