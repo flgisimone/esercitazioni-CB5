@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/1561985.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    color: white;
+}
+
+.containerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.containerTitle h1{
+    font-size: 50px;
+}
+
+.containerTitle img{
+    width: 100px;
+}
+
+.containerCard{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardActor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    text-align: left;
+    border-radius: 10px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(5,5,14,1) 100%);
+    color: white;
+}
+
+.imgActor{
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    align-self: center;
+    border-radius: 10px;
+}

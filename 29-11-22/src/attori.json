@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nome": "Tom",
+        "cognome": "Cruise",
+        "data_nascita": "03/07/1962",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1980",
+        "fine_attivita": "",
+        "in_attivita": true
+    },
+    {
+        "id": 2,
+        "nome": "Robert",
+        "cognome": "De Niro",
+        "data_nascita": "17/08/1943",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1960",
+        "fine_attivita": "",
+        "in_attivita": true
+    },
+    {
+        "id": 3,
+        "nome": "Eva",
+        "cognome": "Green",
+        "data_nascita": "06/06/1980",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1999",
+        "fine_attivita": "",
+        "in_attivita": true
+    },
+    {
+        "id": 4,
+        "nome": "Johnny",
+        "cognome": "Depp",
+        "data_nascita": "06/06/1980",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1979",
+        "fine_attivita": "",
+        "in_attivita": true
+    },
+    {
+        "id": 5,
+        "nome": "Demi",
+        "cognome": "Moore",
+        "data_nascita": "06/06/1980",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1989",
+        "fine_attivita": "",
+        "in_attivita": true
+    },
+    {
+        "id": 6,
+        "nome": "Chris",
+        "cognome": "Evans",
+        "data_nascita": "06/06/1985",
+        "riconoscimenti": "Elenco premi vinti",
+        "inizio_attivita": "1999",
+        "fine_attivita": "",
+        "in_attivita": true
+    }
+]
