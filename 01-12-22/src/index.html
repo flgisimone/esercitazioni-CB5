@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercitazione 31-11-22</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="containerTitle">
+        <h1>Mobie Database</h1>
+        <img src="https://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png" alt="logo immagine">
+    </div>
+    <h2>Attori</h2>
+        <form name="actor" class="formActor">
+            <input type="text" name="nomeActor" placeholder="Inserisci il nome" require/>
+            <input type="text" name="cognomeActor" placeholder="Inserisci il cognome" require/>
+            <button type="submit" name="btnAdd" class="btnAdd">Aggiungi attore</button>
+        </form>
+    <div class="containerCardActor"></div>
+    <h2>Registi</h2>
+        <form name="director" class="formdirector">
+            <input type="text" name="nomeDirector" placeholder="Inserisci il nome" require/>
+            <input type="text" name="cognomeDirector" placeholder="Inserisci il cognome" require/>
+            <button type="submit" name="btnAdd" class="btnAdd">Aggiungi regista</button>
+        </form>
+    <div class="containerCardDirector"></div>
+    <script src="./js/attori.js" type="module"></script>
+    <script src="./js/regista.js" type="module"></script>
+</body>
+</html>
