@@ -8,6 +8,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const middlewareRichiesta = (req, res, next) => {
   console.log("Richiesta ricevuta.");
+  
   next();
 };
 
