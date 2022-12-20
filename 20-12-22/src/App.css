@@ -22,10 +22,10 @@ body{
 .button{
   width: 100px;
   height: 30px;
-
 }
 
-.textContainer{
-  text-align: center;
+.textP{
   font-size: 30px;
+  text-align: center;
+  display: none;
 }
