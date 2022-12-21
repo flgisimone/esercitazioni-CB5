@@ -1,0 +1,20 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.font-l{
+  font-size: 1rem;
+}
+
+.font-m{
+  font-size: 0.8rem;
+}
+
+.font-s{
+  font-size: 0.6rem;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    width: 250px;
+    margin: auto;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.button--variant-primary{
+    background-color: red;
+    color: white;
+}
+
+.button--variant-secondary{
+    background-color: green;
+    color: black;
+}
+
+.button--variant-tertiary{
+    background-color: yellow;
+    color: black;
+}
