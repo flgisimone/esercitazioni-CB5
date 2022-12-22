@@ -1,0 +1,76 @@
+.header{
+
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,216,255,1) 100%);
+    color: white;
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .containerHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: min(90%, 1500px);
+        margin: auto;
+        padding: 2rem 0;
+    
+        .logo{
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-self: flex-start;
+        }
+    
+        .navMenu{
+            display: flex;
+            gap: 0.1rem;
+        }
+    
+        .ulMenu{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style-type: none;
+            gap: 0.7rem;
+            display: none;
+        }
+    
+        .liItem{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    
+        .bnOpenMenu{
+            color: white;
+            font-size: 25px;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            cursor: pointer;
+        }
+    
+        .bnCloseMenu{
+            color: white;
+            font-size: 25px;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            align-items: flex-start;
+            display: none;
+            cursor: pointer;
+        }
+    
+    }
+
+}

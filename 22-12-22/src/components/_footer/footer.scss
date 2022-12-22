@@ -1,0 +1,65 @@
+footer{
+
+    background: rgb(34,34,34);
+    background: linear-gradient(35deg, rgba(34,34,34,1) 0%, rgba(0,216,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1.5rem;
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .containerFooter{
+        width: min(90%, 1500px);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    .navSitemap{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    h5{
+        font-size: 1.5rem;
+    }
+
+    .ulSitemap{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style-type: none;
+        gap: 0.5rem;
+        font-weight: 600;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .liSitemap{
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    span{
+        padding-bottom: 1.3rem;
+        font-weight: 600;
+    }
+}
