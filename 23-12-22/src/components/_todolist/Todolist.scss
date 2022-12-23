@@ -1,0 +1,42 @@
+.todolist{
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .containerTodolist{
+        width: min(90%, 1500px);
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+    }
+
+    .ulTodolist{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .task{
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        border: 2px solid aquamarine;
+        border-radius: 10px;
+
+
+    }
+
+    .btnDone{
+        display: flex;
+        background-color: transparent;
+        border: none;
+    }
+
+}
