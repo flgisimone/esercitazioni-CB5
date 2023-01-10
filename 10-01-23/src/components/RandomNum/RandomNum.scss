@@ -1,0 +1,51 @@
+.container{
+    padding: 5rem 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: rgb(34,34,34);
+    background: linear-gradient(36deg, rgba(34,34,34,1) 0%, rgba(0,216,255,1) 100%);
+
+    h1{
+      text-align: center;
+      width: 20rem;
+      color: white;
+    }
+
+    .btnRandom{
+      border-radius: 5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+      background-color: salmon;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .disabled{
+      border-radius: 5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: grey;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .containerNumber{
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+
+      span{
+        border-radius: 0.3rem;
+        border: 1px solid orange;
+        padding: 0 0.3rem;
+        font-size: 1.5rem;
+        color: white;
+        background-color: salmon;
+      }
+    }
+  }
