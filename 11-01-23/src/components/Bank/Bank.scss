@@ -1,0 +1,104 @@
+.sectionBank{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: black 1px 0 5px;
+
+    .containerBank{
+        padding: 1rem;
+        width: 85%;
+        background: rgb(34,34,34);
+        background: linear-gradient(28deg, rgba(34,34,34,1) 55%, rgba(255,215,0,1) 100%);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        border-radius: 1rem;
+
+        .cardBank{
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .headBank{
+                color: gold;
+                text-align: left;
+
+                .bank_name{
+                    font-size: 1.2rem;
+                }
+            }
+
+            .headIban{
+                text-align: left;
+                color: gold;
+                display: flex;
+                gap: 0.5rem;
+                text-align: center;
+
+                .iban{
+                    font-size: 1rem;
+                    font-weight: 400;
+                }
+
+                .fetch_iban{
+                    font-weight: 600;
+                }
+            }
+
+            .infoNumber{
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                width: fit-content;
+
+                .headAccountNumber,
+                .headRoutingNumber,
+                .headSwiftBic{
+                    display: flex;
+                    gap: 1rem;
+                    color: #ffd700;
+                }
+
+                .account_number,
+                .routing_number,
+                .swift_bic{
+                    width: 5.5rem;
+                    font-weight: 400;
+                }
+
+                .fetch_account_number,
+                .fetch_routing_number,
+                .fetch_swift_bic{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .btnFetch{
+        width: 5rem;
+        margin: auto;
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionBank{
+        .containerBank{
+            width: 30%;
+            flex-direction: row;
+
+            .sectionBeer .containerBeer .cardBeer .infoBeer {
+                display: flex;
+                text-align: center;
+                width: 100%;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}

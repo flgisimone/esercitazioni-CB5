@@ -1,0 +1,65 @@
+.sectionCredit_Card{
+    padding: 1rem 0;
+    text-shadow: black 1px 0 5px;
+
+    .containerCredit_Card{
+        width: 85%;
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background: rgb(34,34,34);
+        background: linear-gradient(28deg, rgba(34,34,34,1) 22%, rgba(167,167,167,1) 100%);
+        border-radius: 1rem;
+
+        .cardCredit_Card{
+            display: flex;
+            flex-direction: column;
+
+            .credit_card_number{
+                color: white;
+                font-weight: 600;
+            }
+
+            .headDate{
+            align-self: flex-end;
+            color: white;
+            font-weight: 600;
+            }
+
+            .headType{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                color: white;
+
+                .type{
+                    font-size: 0.8rem;
+                }
+
+                .fetch_type{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .btnFetch{
+        width: fit-content;
+        margin: auto;
+        background-color: transparent;
+        border: none;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: white;
+        text-shadow: black 1px 0 5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionCredit_Card{
+        .containerCredit_Card{
+            width: 30%;
+        }
+    }
+}

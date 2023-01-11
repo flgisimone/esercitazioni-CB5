@@ -1,0 +1,65 @@
+.sectionBlood{
+    padding: 1rem;
+
+    .containerBlood{
+        width: 85%;
+        margin: auto;
+        background-image: url("https://st.depositphotos.com/59324920/54781/v/600/depositphotos_547819414-stock-illustration-cute-funny-running-blood-drop.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        border-radius: 1rem;
+        border: 1px solid red;
+        padding: 1rem;
+        box-shadow: 0 0 5px red;
+
+        .cardBlood{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .headType,
+            .headRh_factor,
+            .headGroup{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .type,
+            .rh_factor,
+            .group{
+                font-size: 1.1rem;
+            }
+
+            .fetch_type,
+            .fetch_rh_factor,
+            .fetch_group{
+                font-size: 1.2rem;
+                font-weight: 600;
+                text-decoration: underline red;
+
+            }
+        }
+    }
+
+    .btnFetch{
+        width: 5rem;
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        color: red;
+        cursor: pointer;
+        text-align: left;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sectionBlood{
+        .containerBlood{
+            width: 30%
+        }
+    }
+}
